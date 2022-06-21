@@ -1,0 +1,26 @@
+{
+  "name": "qtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qfil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardtanguay/qtools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardtanguay/qtools/issues"
+  },
+  "homepage": "https://github.com/edwardtanguay/qtools#readme",
+  "dependencies": {
+    "csv-parse": "^5.2.0",
+    "markdown-it": "^13.0.1",
+    "sqlite3": "^5.0.8",
+    "xml2json": "^0.12.0"
+  }
+}
