@@ -19,9 +19,6 @@ const records = await qfil.getRecordsFromCsvFile('src/data/employees_semicolons.
 const lines = qfil.getFileAsLines('src/data/jobs/job0001.md');
 const files = qfil.getDirectoryPathAndFileNames('public/images');
 ```
-
-
-
 ## How to use
 
 - download or clone repository
@@ -33,7 +30,9 @@ const files = qfil.getDirectoryPathAndFileNames('public/images');
     "markdown-it": "^13.0.1",
     "sqlite3": "^5.0.8"
 ```
+## Examples of this library being used
 
+- Howto: [Create a data-driven, server-side Node/Express site (no framework, no templating engine)](https://edwardtanguay.netlify.app/howtos?id=566)
 
 
 ## Contributing to this project
