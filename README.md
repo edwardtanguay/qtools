@@ -35,7 +35,7 @@ const files = qfil.getDirectoryPathAndFileNames('public/images');
 - Howto: [Create a data-driven, server-side Node/Express site (no framework, no templating engine)](https://edwardtanguay.netlify.app/howtos?id=566)
 
 
-## Collaborators welcome
+## Join the project
 
 - this is an open-source project run by Edward Tanguay
 - you can fork or contribute to it if you like
