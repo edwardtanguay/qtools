@@ -9,7 +9,7 @@ const absoluteDbPathAndFileName = qsys.buildSystemAbsolutePathAndFileName(
 /**
  * Returns promise for an array of objects based on an SQL query.
  * 
- * return await qsql.getRecordsWithSql('SELECT * FROM colors');
+ * const records = await qsql.getRecordsWithSql('SELECT * FROM colors');
  * 
  * [
  *   {
