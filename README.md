@@ -33,7 +33,7 @@ const files = qfil.getDirectoryPathAndFileNames('public/images');
 ## Examples of this library being used
 
 - Howto: [Create a data-driven, server-side Node/Express site (no framework, no templating engine)](https://edwardtanguay.netlify.app/howtos?id=566)
-
+![grafik](https://user-images.githubusercontent.com/446574/178090452-16d7d27f-615d-4df0-8d35-77e0bdbed8c3.png)
 
 ## Join the project
 
