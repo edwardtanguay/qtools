@@ -30,6 +30,11 @@ const files = qfil.getDirectoryPathAndFileNames('public/images');
     "markdown-it": "^13.0.1",
     "sqlite3": "^5.0.8"
 ```
+- include the qtool file you need like this:
+```
+import * as qsql from './qtools/qsql.js';
+```
+
 ## Examples of this library being used
 
 - Howto: [Create a data-driven, server-side Node/Express site (no framework, no templating engine)](https://edwardtanguay.netlify.app/howtos?id=566)
