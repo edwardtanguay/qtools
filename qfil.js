@@ -70,6 +70,11 @@ export const getFileAsLines = (pathAndFileName) => {
  *
  * const records = await qfil.getRecordsFromCsvFile('src/data/employees_commas.csv');
  * const records = await qfil.getRecordsFromCsvFile('src/data/employees_semicolons.csv', ';');
+ *
+ * name,location,cpus
+ * Zeus,main area,3
+ * Neptune,main area,2
+ * Artemis,production,5
  */
 export const getRecordsFromCsvFile = (pathAndFileName, delimiter = ',') => {
 	return new Promise((resolve, reject) => {
@@ -81,7 +86,6 @@ export const getRecordsFromCsvFile = (pathAndFileName, delimiter = ',') => {
 				} else if (records.length === 0) {
 					resolve([]);
 				} else {
-					records = [records[0]]; //test, remove later
 					resolve(records);
 				}
 			}
