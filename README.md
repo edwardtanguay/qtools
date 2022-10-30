@@ -39,6 +39,7 @@ import * as qsql from './qtools/qsql.js';
 
 - Howto: [Create a data-driven, server-side Node/Express site (no framework, no templating engine)](https://edwardtanguay.netlify.app/howtos?id=566)
 ![grafik](https://user-images.githubusercontent.com/446574/178090452-16d7d27f-615d-4df0-8d35-77e0bdbed8c3.png)
+- An example so far using `qfil.getDirectoryPathAndFileNames()` and `qfil.getRecordsFromCsvFile()`: https://github.com/edwardtanguay/qtools-use
 
 ## Join the project
 
