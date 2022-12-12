@@ -190,3 +190,39 @@ export const parseMarkDown = (
     }
     return r;
 };
+
+	/**
+	 * returns a 10-digit random number
+	 * --> send a number e.g. 20 to vary the length to 20 digits
+	 * 
+	 * const idCode = qstr.getRandomIdNumber()
+	 * 
+	 * 2837283728
+	 */
+	export const getRandomIdNumber = (length = 10) => {
+		let r = '';
+		for (let x = 1; x <= length; x++) {
+			const randomDigit = Math.floor(Math.random() * 10);
+			r += String(randomDigit);
+		}
+		return r;
+	};
+
+	/**
+	 * removes a random item from an array and returns that item
+	 * 
+	 * const colors = ['red', 'blue', 'green'];
+	 * const color = qstr.removeRandomItemFromArray(colors)
+	 * 
+	 * color is 'red'
+	 * colors is ['blue', 'green']
+	 */
+	export const removeRandomItemFromArray = (arr) => {
+		if (arr.length === 0) {
+			return null;
+		}
+		const index = Math.trunc(Math.random() * arr.length);
+		const selectedItem = arr[index];
+		arr.splice(index, 1);
+		return selectedItem;
+	};	
