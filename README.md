@@ -53,8 +53,3 @@ import * as qsql from './qtools/qsql.js';
 - create a demo in `demo` with `demo/data` which is a demonstration of how to use the various tools in this library, e.g. as:
 	- API
     -   server-side website (not EJS but text parsing which takes advantage of the tools in this library)
-
-## This is only a test
-
-![grafik](https://user-images.githubusercontent.com/446574/237059877-1473b588-0d04-4d48-9a83-af15b07186fc.png)
-
